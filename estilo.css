@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+/*fonte de títulos e subtitulos da página*/
+
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+/*resto da página*/
+
+
+* {
+    padding: 0%;
+    /*define o espaço interno*/
+    margin: 0%;
+    /*define o espaço esterno*/
+    box-sizing: border-box;
+
+}
+
+header {
+    background-color: rgb(8, 8, 8);
+    /*cor de trás*/
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+
+
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#logo {
+    border-radius: 30px;
+    /*define o nivel da borda*/
+
+    height: 80px;
+}
+
+/*barras do nv*/
+.inic {
+    background-color: rgb(98, 7, 7);
+    color: white;
+    display: flex;
+    /*permite que caixas fiquem na mesma linha*/
+    flex-direction: row;
+    /*deixa o eixo principal na horizental*/
+    justify-content: center;
+
+    width: 300px;
+    height: 50px;
+
+    padding-top: 10px;
+
+    border-radius: 55px;
+
+
+    /*espaço externo entre outros elementos*/
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/*barra de navegaçao*/
+nav {
+
+    display: flex;
+    /*deixa as caixas na mesma linha*/
+    flex-direction: row;
+    /*direção horizotal*/
+    justify-content: space-around;
+    /*deixa centralizado dando entre os itens*/
+    gap: 60px;
+
+}
+
+/*fundo das seções*/
+.atras {
+    background-color: rgb(50, 51, 50);
+    width: 100%;
+    height: 100%;
+
+    background-image: url(./imagens/parede.png);
+
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    /*tira o sublinhado da âncora*/
+
+}
+
+/*organiza as caixas de pesonagens*/
+#tabela {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+/*parte da categorias*/
+.categorias {
+    display: flex;/*deixa a caixa flexivel*/
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+/*caixas dos personagens*/
+.abas {
+    background-color: rgb(40, 41, 35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    width: 350px;
+    /*defive a largura*/
+    height: 500px;
+    /*defive a altura*/
+    text-align: center;
+    /*centralizar o tento*/
+    font-size: 20px;
+    /*tamanho da letra*/
+
+
+
+    border-radius: 40px;
+
+    margin-bottom: 40px;
+
+
+
+}
+
+/*cate dos protas*/
+.prota {
+    background-color: aliceblue;
+    width: 125px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/*cate dos secuns*/
+.secun {
+    background-color: aliceblue;
+    width: 125px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;/*de o texo no centro*/
+    padding-top: 5px;
+}
+
+/*cate dos caps*/
+.cap {
+    background-color: rgb(202, 171, 33);
+    width: 125px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;/*de o texo no centro*/
+    padding-top: 5px;
+}
+
+/*cate da real*/
+.real {
+    background-color: rgb(144, 90, 214);
+    width: 125px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;/*de o texo no centro*/
+    padding-top: 5px;
+}
+
+/*cate da anti*/
+.anti {
+    background-color: rgb(110, 7, 7);
+    width: 125px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;/*de o texo no centro*/
+    padding-top: 5px;
+}
+
+.agua {
+    background-color: rgb(49, 149, 236);
+    width: 125px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;/*de o texo no centro*/
+    padding-top: 5px;
+}
+
+.rela {
+    background-color: rgb(255, 235, 54);
+    width: 125px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;/*de o texo no centro*/
+    padding-top: 5px;
+}
+
+.vento {
+    background-color: rgb(147, 228, 140);
+    width: 125px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;/*de o texo no centro*/
+    padding-top: 5px;
+}
+
+.prata {
+    background-color: rgb(156, 160, 163);
+    width: 125px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;/*de o texo no centro*/
+    padding-top: 5px;
+}
+
+.fogo {
+    background-color: rgba(204, 73, 12, 0.966);
+    width: 125px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;/*de o texo no centro*/
+    padding-top: 5px;
+}
+
+.rosa {
+    background-color: rgb(0, 67, 212);
+    width: 125px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;/*de o texo no centro*/
+    padding-top: 5px;
+}
+
+.selo {
+    background-color: rgb(121, 178, 228);
+    width: 125px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;/*de o texo no centro*/
+    padding-top: 5px;
+}
+
+.sombra {
+    background-color: rgb(54, 22, 173);
+    width: 125px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;/*de o texo no centro*/
+    padding-top: 5px;
+}
+
+.sonho {
+    background-color: rgb(150, 51, 216);
+    width: 125px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;/*de o texo no centro*/
+    padding-top: 5px;
+}
+
+.planta {
+    background-color: rgb(14, 136, 30);
+    width: 125px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;/*de o texo no centro*/
+    padding-top: 5px;
+}
+
+/*borda das imagens*/
+img {
+    background-size: cover;
+    border-radius: 30px;
+}
+
+/*rodapé da página*/
+footer {
+    height: 150px;
+    background-color: rgb(98, 7, 7);
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+
+}
+
+/*fonte do paragrafo*/
+p {
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
