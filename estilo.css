@@ -133,12 +133,12 @@ a {
     font-size: 20px;
     /*tamanho da letra*/
 
-
+    box-shadow:  10px 10px 30px 0px rgba(0, 0, 0, 0.568) ;
 
     border-radius: 40px;
 
     margin-bottom: 40px;
-
+    margin-top: 10px;
 
 
 }
@@ -151,6 +151,7 @@ a {
     border-radius: 30px;
     text-align: center;
     padding-top: 5px;
+    box-shadow:  10px 10px 30px 0px rgba(0, 0, 0, 0.658) ;
 }
 
 /*cate dos secuns*/
@@ -161,6 +162,7 @@ a {
     border-radius: 30px;
     text-align: center;/*de o texo no centro*/
     padding-top: 5px;
+    box-shadow:  10px 10px 30px 0px rgba(0, 0, 0, 0.568) ;
 }
 
 /*cate dos caps*/
@@ -171,6 +173,7 @@ a {
     border-radius: 30px;
     text-align: center;/*de o texo no centro*/
     padding-top: 5px;
+    box-shadow:  10px 10px 30px 0px rgba(0, 0, 0, 0.568) ;
 }
 
 /*cate da real*/
@@ -181,6 +184,7 @@ a {
     border-radius: 30px;
     text-align: center;/*de o texo no centro*/
     padding-top: 5px;
+    box-shadow:  10px 10px 30px 0px rgba(0, 0, 0, 0.568) ;
 }
 
 /*cate da anti*/
@@ -191,6 +195,7 @@ a {
     border-radius: 30px;
     text-align: center;/*de o texo no centro*/
     padding-top: 5px;
+    box-shadow:  10px 10px 30px 0px rgba(0, 0, 0, 0.568) ;
 }
 
 .agua {
@@ -200,6 +205,7 @@ a {
     border-radius: 30px;
     text-align: center;/*de o texo no centro*/
     padding-top: 5px;
+    box-shadow:  10px 10px 30px 0px rgba(0, 0, 0, 0.568) ;
 }
 
 .rela {
@@ -209,6 +215,7 @@ a {
     border-radius: 30px;
     text-align: center;/*de o texo no centro*/
     padding-top: 5px;
+    box-shadow:  10px 10px 30px 0px rgba(0, 0, 0, 0.568) ;
 }
 
 .vento {
@@ -218,6 +225,7 @@ a {
     border-radius: 30px;
     text-align: center;/*de o texo no centro*/
     padding-top: 5px;
+    box-shadow:  10px 10px 30px 0px rgba(0, 0, 0, 0.568) ;
 }
 
 .prata {
@@ -227,6 +235,7 @@ a {
     border-radius: 30px;
     text-align: center;/*de o texo no centro*/
     padding-top: 5px;
+    box-shadow:  10px 10px 30px 0px rgba(0, 0, 0, 0.568) ;
 }
 
 .fogo {
@@ -236,6 +245,7 @@ a {
     border-radius: 30px;
     text-align: center;/*de o texo no centro*/
     padding-top: 5px;
+    box-shadow:  10px 10px 30px 0px rgba(0, 0, 0, 0.568) ;
 }
 
 .rosa {
@@ -243,8 +253,9 @@ a {
     width: 125px;
     height: 40px;
     border-radius: 30px;
-    text-align: center;/*de o texo no centro*/
+    text-align: center;/*deixa o texto no centro*/
     padding-top: 5px;
+    box-shadow:  10px 10px 30px 0px rgba(0, 0, 0, 0.568) ;
 }
 
 .selo {
@@ -252,8 +263,9 @@ a {
     width: 125px;
     height: 40px;
     border-radius: 30px;
-    text-align: center;/*de o texo no centro*/
+    text-align: center;/*deixa o texto no centro*/
     padding-top: 5px;
+    box-shadow:  10px 10px 30px 0px rgba(0, 0, 0, 0.568) ;
 }
 
 .sombra {
@@ -261,8 +273,9 @@ a {
     width: 125px;
     height: 40px;
     border-radius: 30px;
-    text-align: center;/*de o texo no centro*/
+    text-align: center;/*deixa o texto no centro*/
     padding-top: 5px;
+    box-shadow:  10px 10px 30px 0px rgba(0, 0, 0, 0.568) ;
 }
 
 .sonho {
@@ -270,8 +283,9 @@ a {
     width: 125px;
     height: 40px;
     border-radius: 30px;
-    text-align: center;/*de o texo no centro*/
+    text-align: center;/*deixa o texto no centro*/
     padding-top: 5px;
+    box-shadow:  10px 10px 30px 0px rgba(0, 0, 0, 0.568) ;
 }
 
 .planta {
@@ -279,8 +293,16 @@ a {
     width: 125px;
     height: 40px;
     border-radius: 30px;
-    text-align: center;/*de o texo no centro*/
+    text-align: center;/*deixa o texto no centro*/
     padding-top: 5px;
+    box-shadow:  10px 10px 30px 0px rgba(0, 0, 0, 0.568) ;
+}
+/*efeito quando coloca o mouse em cima */
+#pret:hover{
+    background-color: rgb(8, 1, 1);
+    color: rgb(156, 201, 201);
+    transform: translateY(-10px) ;
+    transition: 0.3s;
 }
 
 /*borda das imagens*/
@@ -304,4 +326,11 @@ p {
     font-family: "Story Script", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+/*titulo da página */
+#titulo{
+    text-align: center; /*tento centralizado*/
+    font-size: 50px; /*tamanho do texto*/
+    
 }
