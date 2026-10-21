@@ -143,6 +143,17 @@ a {
 
 }
 
+.abas img{
+    height:320px; 
+    width:220px;
+    object-fit: cover;
+}
+
+.abas img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 /*cate dos protas*/
 .prota {
     background-color: aliceblue;

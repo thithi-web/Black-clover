@@ -124,6 +124,15 @@ article {
 
 }
 
+.placas img{
+    object-fit: cover;
+}
+
+.placas img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 div {
     text-align: center;
 }
